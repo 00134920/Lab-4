@@ -6,10 +6,11 @@ using namespace std;
 finaliza con la misma letra.*/
 int main(){
     int longi;
-    char palabra[100];
+    char palabra[30];
 
     cout << "Ingrese una palabra" << endl;
     cin >> palabra;
+    longi = strlen(palabra);
     if (palabra[0]==palabra[longi-1])
     {
         cout << "La palabra inicia y termina con la misma letra" << endl;
